@@ -15,7 +15,7 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 ```
 import numpy as np
 x=np.array(eval(input()))
-sorted=np.sort(x,axis=1)
+sorted=np.sort(x,axis=0)
 print("Given array ")
 print("",x,"\n")
 print(sorted)
